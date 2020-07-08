@@ -1,6 +1,5 @@
 ## Setup
 
-- Copy index.html and package.json from conFusion
 
 ```
 $  npm install
