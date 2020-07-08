@@ -13,12 +13,6 @@ $  git init
 ```
 node_modules
 ```
-
-```
-$  npm install bootstrap@4.0.0 --save
-$  npm install jquery@3.3.1 popper.js@1.12.9 --save
-```
-
 - Add to index.html right before title
 ```
   <!-- Required meta tags always come first -->
