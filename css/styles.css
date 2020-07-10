@@ -30,8 +30,50 @@ body {
   background: #9575CD;
 }
 
-.address {
-  font-size: 80%;
-  margin: 0px;
-  color: #0f0f0f;
+address .fa {
+  margin: 3px 3px;
+  padding: 3px;
+  font-size: 20px;
+  text-align: center;
+}
+address .fa-link {
+  font-size: 95%;
+}
+address .fa-envelope {
+  font-size: 95%;
+}
+
+.social {
+  margin: 3px 3px;
+}
+.social.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-youtube {
+  background: white;
+  color: red;
+}
+.social.fa-envelope {
+  background: white;
+  color: #9575CD;
+}
+.fa:hover {
+  opacity: 0.7;
 }
