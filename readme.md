@@ -1,29 +1,20 @@
-## Setup
+# O'Really Book Site 
 
+A mock book site to practice the bootstrap components presented in the coursera course:  
+*"Front-End Web UI Frameworks and Tools: Bootstrap 4"*
 
+---
+- Bootstrap depends on jquery and popper.js
+- Install bootstrap, jquery and popper.js
 ```
-$  npm install
+$ npm install bootstrap --save
+$ npm install jquery popper.js --save
 ```
-
-- Initialize git repo
+- Add link to index.html
 ```
-$  git init
-```
-- Add to .gitignore
-```
-node_modules
-```
-- Add to index.html right before title
-```
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 ```
-
 - At bottom of page, just before the end of the body tag, add the following code.
 
 ```
